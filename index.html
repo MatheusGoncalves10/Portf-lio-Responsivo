@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--conexão com o font-awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!--conexão com o css-->
+    <link rel="stylesheet" href="estilo/estilo.css">
+    <title>Meu portfólio</title>
+</head>
+<body>
+    <!--início da estruturação do menu-->
+    <nav class="menu">
+        <div class="logo">
+            <h1>Melissa Collazo</h1>
+        </div>
+        <div class="menu-icon">
+            <i class="fa-solid fa-bars" onclick="mostrarMenu()"></i>
+        </div>
+        <ul class="lista">
+            <li><a href="#">Home</a></li>
+            <li><a href="#sobre-mim">Sobre mim</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#apresentações">Apresentações</a></li>
+        </ul>
+    </nav>
+    <!--fim da estruturação do menu-->
+
+    <!--início da estruturação do banner-->
+    <div class="banner" style="background-image: url('imagens/fundo.jpg'); background-repeat: no-repeat; background-size: cover;">
+        <div class="título">
+            <h1>Seja bem-vindo!</h1>
+        </div>
+        <div class="subtítulo">
+            <p>Este é meu portfólio, espero que goste.</p>
+        </div>
+        <div class="botao">
+            <button><a href="#">Entre em contato</a></button>
+        </div> 
+        <br><br><br><br><br><br><br><br>
+        <div id="sobre-mim"></div>
+    </div>
+    <!--fim da estruturação do banner-->
+
+    <!--início da estruturação do sobre mim -->
+    <div class="sobre-mim"> 
+        <h1>Um Pouco Sobre Mim</h1>
+        <div class="linha"> 
+          <div class="coluna">
+            <h3>Resumo</h3>
+            <p>Meu nome é Melissa Collazo, sou uma dançarina profissional de 26 anos e possuo uma década de experiência na área. Apaixonada 
+              por dança e apresentações, acredito que a arte é a melhor forma de explorar sentimentos e representar a realidade. E por esse
+              motivo, me considero uma pessoa muita expressiva e sensível quanto a dança.</p>
+          </div>
+          <div class="coluna"> 
+            <h3>Formação Acadêmica</h3>
+            <p>1 - Técnico em Dança - Etec de Artes</p>
+            <p>2 - Teatro - Teatro Escola Macunaíma</p>
+            <p>3 - Superior em Dança - Universidade Federal de Minas Gerais (UFMG)</p>
+          </div>
+          <div class="coluna">
+            <h3>Competências</h3>
+            <p>Reconhecer, interpretar, refletir e elaborar apresentações.</p>
+            <p>Identificação e utilização das formas de linguagem da Dança</p>
+              <div id="habilidades"></div>
+          </div>
+        </div>
+
+    </div>
+    <!--fim da estruturação do sobre mim-->
+
+    <!--início da estruturação das habilidades -->
+    <div class="sobre-mim"> 
+        <h1>Minhas Habilidades</h1>
+        <div class="linha"> 
+          <div class="coluna">
+            <h3>Ballet</h3>
+            <p>Pratico desde criança e me considero especialista. Minhas principais competências com relação a este estilo são: equilíbrio,
+              musicalidade e concentração.</p>
+          </div>
+          <div class="coluna"> 
+            <h3>Sapateado</h3>
+            <p>Pratico há dois 2 anos e me considero iniciante. No entanto, já demonstro facilidade com técnicas de transferência de peso.</p>
+          </div>
+          <div class="coluna">
+            <h3>Pole Dance</h3>
+            <p>Pratico há 5 anos e me considero especialista. Minhas principais habilidades se referem a facilidade motora que possuo.</p>
+              <div id="apresentações"></div>
+          </div>
+        </div>
+    </div>
+    <!--fim da estruturação das habilidades-->
+
+    <!--início da estruturação das apresentações-->
+    <div class="apresentações"> 
+        <h1>Minhas Apresentações</h1>
+        <div class="linha"> 
+          <div class="coluna" style="background-image: url('imagens/ap1.jpg'); background-repeat: no-repeat; background-size: cover;">
+            <p>O Lago dos Cisnes</p>
+          </div>
+          <div class="coluna" style="background-image: url('imagens/ap2.jpg'); background-repeat: no-repeat; background-size: cover;"> 
+            <p>Coppelia </p>
+          </div>
+          <div class="coluna" style="background-image: url('imagens/ap3.jpg'); background-repeat: no-repeat; background-size: cover;">
+            <p>La fillé mal gardeé</p>
+          </div>
+        </div>
+    </div>
+    <!--fim da estruturação das apresentações-->
+
+    <!--início da estruturação do rodapé-->
+    <div class="rodapé">
+        <div class="media">
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <ul>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Serviços</a></li>
+            <li><a href="#">Contato</a></li>
+            <li><a href="#">Termos</a></li>
+            <li><a href="#">Política de Privacidade</a></li>
+        </ul>
+        <p>Melissa Collazo @ 2022</p>
+    </div>
+    <!--fim da estruturação do rodapé-->
+
+    <!-- início da conexão com o javascript-->
+    <script src="javascript/mobile-menu.js"></script>
+    <!-- fim da conexão com o javascript-->
+</body>
+</html>
